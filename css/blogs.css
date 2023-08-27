@@ -1,0 +1,260 @@
+body {
+    zoom: 90%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10.1px;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* overflow-x: hidden; */
+
+}
+
+
+.eg-img-1 {
+    width: inherit;
+    border-radius: 6px;
+    height: 80vh;
+}
+
+.overlay-1 {
+    position: absolute;
+    z-index: 1;
+    font-size: 2.8rem;
+    transform: translateY(35rem);
+    color: white;
+    font-weight: bold;
+    padding-left: 10rem;
+}
+
+.overlay-btn:hover {
+    cursor: pointer;
+}
+
+.overlay-btn {
+    border-radius: 6px;
+    width: 55px;
+    height: 35px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.arrow-down {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-left: .1rem;
+}
+
+.break {
+    display: none;
+}
+
+.small-break {
+    display: none;
+}
+
+body {
+    /* height: 1000vh; */
+}
+
+nav {
+    margin: 3rem 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo a {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.menu-items {
+    list-style-type: none;
+}
+
+.menu-items a {
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#page:hover .sub {
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+    transition: .2s;
+}
+
+.sub {
+    visibility: hidden;
+    transition: .2s;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    padding: 10px 23px;
+    gap: 2rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.sub-items,
+#heading_pages,
+.utility,
+#heading_utility,
+.cat-items {
+    padding: 10px 10px;
+}
+
+#heading_pages,
+#heading_utility {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+
+.cats {
+    visibility: hidden;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    font-size: 1.6rem;
+    padding: 10px 10px;
+    z-index: 1;
+    gap: .5rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+#cat:hover .cats {
+    transition: .2s;
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+}
+
+.cat-items {
+    font-size: 1.6rem;
+}
+
+#list,
+#close {
+    display: none;
+}
+
+.articles-block-1, .articles-block-2 {
+    /* margin-top: 65rem; */
+    padding-left: 6rem;
+}
+
+#art {
+    font-size: 3rem;
+    padding-left: 6rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.article-1 a,
+.article-2 a,
+.article-3 a,
+.article-4 a,
+.article-5 a {
+    display: flex;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+#article-1-img,
+#article-2-img,
+#article-3-img,
+#article-4-img,
+#article-5-img {
+    width: 20vw;
+    transition: .2s;
+    border-radius: 6px;
+}
+
+#article-1-img:hover,
+#article-2-img:hover,
+#article-3-img:hover,
+#article-4-img:hover,
+#article-5-img:hover {
+    opacity: .75;
+    transform: scale(1.2);
+    transform-origin: center center;
+    transition: .2s;
+    transform: scale(1.2) translate(-10%, -10%);
+}
+
+h4 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+h3 {
+    padding-top: 1.4rem;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+#art-1,
+#art-2,
+#art-3,
+#art-4,
+#art-5 {
+    font-size: 1.5rem;
+    color: grey;
+    padding-top: 2rem;
+}
+
+#article-1-des,
+#article-2-des,
+#article-3-des,
+#article-4-des,
+#article-5-des {
+    transition: .2s;
+}
+
+#article-1-des:hover,
+#article-2-des:hover,
+#article-3-des:hover,
+#article-4-des:hover,
+#article-5-des:hover {
+    transition: .2s;
+    opacity: 0.75;
+    transform: scale(1.1);
+}
+
+.articles {
+    display: flex;
+}
